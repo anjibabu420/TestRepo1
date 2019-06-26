@@ -11,6 +11,8 @@ namespace VSGITEXAMPLE.Controllers
         // GET: Demo
         public ActionResult Index()
         {
+            ViewBag.name = "Anji";
+            ViewBag.age = "24";
             return View();
         }
     }
