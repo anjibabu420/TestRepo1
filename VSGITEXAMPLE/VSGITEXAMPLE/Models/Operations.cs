@@ -9,10 +9,9 @@ namespace VSGITEXAMPLE.Models
     {
         public int Addition(int x,int y)
         {
-            int a=x;
-            int b=y;
+            returt x+y;
             
-            return a+b;
+           
         }
     }
 }
