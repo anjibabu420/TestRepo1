@@ -9,7 +9,7 @@ namespace VSGITEXAMPLE.Models
     {
         public int Addition(int x,int y)
         {
-            returt x+y;
+            return x+y;
             
            
         }
