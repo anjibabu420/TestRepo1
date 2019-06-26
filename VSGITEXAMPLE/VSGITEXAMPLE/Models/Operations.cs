@@ -7,12 +7,12 @@ namespace VSGITEXAMPLE.Models
 {
     public class Operations
     {
-        public int Addition()
+        public int Addition(int x,int y)
         {
-            int a=10;
-            int b=20;
-            int c= a+b;
-            return c;
+            int a=x;
+            int b=y;
+            
+            return a+b;
         }
     }
 }
